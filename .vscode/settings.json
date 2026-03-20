@@ -1,0 +1,10 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "./Cargo.toml",
+        "./escrow/Cargo.toml",
+        "./zkvm/example-proof/guest/Cargo.toml",
+    ],
+    "rust-analyzer.check.extraEnv": {
+        "RISC0_SKIP_BUILD": "1",
+    }
+}
