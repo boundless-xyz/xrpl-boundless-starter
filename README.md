@@ -28,6 +28,18 @@ This repo also contains two helpful utilities
 - [Just](https://github.com/casey/just?tab=readme-ov-file#installation)
 - [Docker](https://docs.docker.com/engine/install/)
 
+## Building Escrows and zkVM Programs
+
+Build the smart escrow with
+
+```shell
+just build-escrow
+```
+
+This will also build the zkVM program behind the scenes and embed the Image ID in the escrow. This effectively serves to link the two components.
+
+The resulting escrow code will be built to ./target/wasm32v1-none/release/escrow.wasm
+
 ## Deploying Escrows
 
 ### Public Devnet
@@ -38,7 +50,7 @@ A special devnet has been created for previewing smart escrows with ZK verificat
 - RPC - wss://groth5.devnet.rippletest.net:51233
 - Faucet - http://groth5-faucet.devnet.rippletest.net
 
-The easiest way to deploy to this devnet is to use the [provided web UI](./ui/index.html) but you can also build your own web integrations using xrpl.js. If using XRPL.js you MUST use the version [4.5.0-smartescrow.4](https://www.npmjs.com/package/xrpl/v/4.5.0-smartescrow.4)
+The easiest way to deploy to this devnet is to use the [provided web UI](https://boundless-xyz.github.io/xrpl-risc0-starter/) but you can also build your own web integrations using xrpl.js. If using XRPL.js you MUST use the version [4.5.0-smartescrow.4](https://www.npmjs.com/package/xrpl/v/4.5.0-smartescrow.4)
 
 > [!IMPORTANT]
 > Do not try and deploy ZK smart escrows to the regular devnet it won't work.
