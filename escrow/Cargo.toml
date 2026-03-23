@@ -7,6 +7,7 @@ edition = "2024"
 crate-type = ["cdylib"]
 
 [dependencies]
-hex-literal = "1.1.0"
+bytemuck = { workspace = true}
 risc0-verifier-xrpl-wasm = { workspace = true }
 xrpl-wasm-stdlib = { workspace = true }
+example-proof-builder = { path = "../zkvm/example-proof" }

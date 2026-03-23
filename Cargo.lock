@@ -1159,7 +1159,8 @@ dependencies = [
 name = "escrow"
 version = "0.1.0"
 dependencies = [
- "hex-literal 1.1.0",
+ "bytemuck",
+ "example-proof-builder",
  "risc0-verifier-xrpl-wasm",
  "xrpl-wasm-stdlib 0.8.0",
 ]
@@ -4755,11 +4756,7 @@ name = "xrpl-risc0-starter"
 version = "0.1.0"
 dependencies = [
  "anyhow",
- "example-proof-builder",
  "hex",
- "rand 0.8.5",
- "risc0-verifier-xrpl-wasm",
- "risc0-zkvm",
  "serde_json",
  "serial_test",
  "test-utils",

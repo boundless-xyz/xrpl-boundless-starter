@@ -5,10 +5,10 @@ edition = "2024"
 
 [dependencies]
 anyhow = { workspace = true }
+bytemuck = { workspace = true }
 clap = { version = "4", features = ["derive"] }
 hex = "0.4"
 risc0-zkvm = { version = "3.0.4", features = ["prove"] }
 example-proof-builder = { path = "../zkvm/example-proof" }
 serde_json = { workspace = true }
 risc0-verifier-xrpl-wasm = { workspace = true, features = ["std"] }
-bytemuck = "1.25.0"
