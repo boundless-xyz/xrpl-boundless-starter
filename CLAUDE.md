@@ -6,6 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 1. **[Quickstart (Web UI)](skills/xrpl-zk-escrow-quickstart/SKILL.md)** — **Start here for hackathons.** No-code Web UI for deploying and testing Smart Escrows. Experiment with pre-built examples before writing Rust.
 2. **[ZK Escrow Development](skills/xrpl-zk-escrow/SKILL.md)** — Full Rust workflow: custom guest programs, CLI proving, escrow contracts, testing, and Boundless market.
+3. **[R U Satoshi? (Example)](skills/r-u-satoshi/SKILL.md)** — Complete tutorial: ZK signature verification escrow. Prove you're Satoshi without revealing the signature on-chain.
 
 > **Hackathon Path:** Begin with the Web UI to understand the concept. Graduate to Rust development when building custom ZK-proved guest programs.
 
