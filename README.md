@@ -9,8 +9,10 @@ Copy and paste this into your AI agent to get full context:
 ```
 I want to work on the XRPL + RISC0 starter project.
 
-First, clone the repo:
-  git clone https://github.com/Boundless-xyz/xrpl-risc0-starter.git
+First, create a new repo from the template (choose one):
+- GitHub UI: Click "Use this template" at https://github.com/Boundless-xyz/xrpl-risc0-starter
+- GitHub CLI: gh repo create my-project --template Boundless-xyz/xrpl-risc0-starter --public
+- Direct clone: git clone https://github.com/Boundless-xyz/xrpl-risc0-starter.git
 
 This repo demonstrates XRPL Smart Escrows gated by RISC Zero zkVM proofs. 
 
