@@ -7,7 +7,10 @@ A starter kit for developing XRPL Smart Escrows with RISC0 proof integration
 Copy and paste this into your AI agent to get full context:
 
 ```
-I want to work on the XRPL + RISC0 starter project at https://github.com/Boundless-xyz/xrpl-risc0-starter
+I want to work on the XRPL + RISC0 starter project.
+
+First, clone the repo:
+  git clone https://github.com/Boundless-xyz/xrpl-risc0-starter.git
 
 This repo demonstrates XRPL Smart Escrows gated by RISC Zero zkVM proofs. 
 
