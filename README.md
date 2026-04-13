@@ -160,6 +160,17 @@ This requires you build the docker image first with `just build-docker`.
 > [!NOTE]
 > The tests will automatically teardown the devnet container upon completion. If the tests are interrupted this doesn't happen. You may need to manually kill the container if you see an error like: `Bind for 0.0.0.0:5005 failed: port is already allocated`
 
+## Features required on XRPL
+
+### RISC Zero Verifier WASM
+https://github.com/boundless-xyz/risc0-xrpl-wasm
+
+### Smart Escrows
+https://xls.xrpl.org/xls/XLS-0100-smart-escrows.html
+
+### Smart Vaults (WIP)
+https://hackmd.io/@r5QtUzQYQaCfobdKd3mP-w/rknt90wnbl
+
 ## FAQs
 
 #### Can XRPL escrows store data/state?
