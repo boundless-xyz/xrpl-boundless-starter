@@ -2,6 +2,28 @@
 
 A starter kit for developing XRPL Smart Escrows with Boundless ZK proof integration
 
+## Table of Contents
+
+- [Hackathon Winners — XRPL Hack the Block (Paris, 11–12 April 2026)](#hackathon-winners--xrpl-hack-the-block-paris-1112-april-2026)
+  - [🥇 Check-Fi](#-check-fi)
+  - [🥈 Sirius (DataLend Protocol)](#-sirius-datalend-protocol)
+- [Install Prompt](#install-prompt)
+- [Overview](#overview)
+- [Prequisites](#prequisites)
+- [Building Escrows and zkVM Programs](#building-escrows-and-zkvm-programs)
+- [Deploying Escrows](#deploying-escrows)
+  - [Public Devnet](#public-devnet)
+  - [Local Devnet](#local-devnet)
+- [Generating Proofs](#generating-proofs)
+  - [Local Proving](#local-proving)
+  - [Boundless Market](#boundless-market)
+- [Writing and running tests](#writing-and-running-tests)
+- [Features required on XRPL](#features-required-on-xrpl)
+  - [RISC Zero Verifier WASM](#risc-zero-verifier-wasm)
+  - [Smart Escrows](#smart-escrows)
+  - [Smart Vaults (WIP)](#smart-vaults-wip)
+- [FAQs](#faqs)
+
 ## Hackathon Winners — XRPL Hack the Block (Paris, 11–12 April 2026)
 
 Projects built on this starter that won at the XRPL Commons "Hack the Block" hackathon during Paris Blockchain Week.
