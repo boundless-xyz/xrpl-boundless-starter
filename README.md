@@ -1,17 +1,17 @@
-# XRPL + RISC0 Starter
+# XRPL + Boundless (ZK) Starter
 
-A starter kit for developing XRPL Smart Escrows with RISC0 proof integration
+A starter kit for developing XRPL Smart Escrows with Boundless ZK proof integration
 
 # Install Prompt
 
 Copy and paste this into your AI agent to get started:
 
 ```
-I want to build something awesome on XRPL using ZK Smart Vaults.
+I want to build something awesome on XRPL using ZK Smart Vaults via Boundless.
 
-First, create a new repo from the template: https://github.com/Boundless-xyz/xrpl-risc0-starter
+First, create a new repo from the template: https://github.com/Boundless-xyz/xrpl-boundless-starter
 
-This repo demonstrates XRPL Smart Escrows gated by RISC Zero zkVM proofs.
+This repo demonstrates XRPL Smart Escrows gated by Boundless zkVM proofs (RISC Zero).
 
 **Follow this progression:**
 
@@ -29,7 +29,7 @@ There are two main components to a ZK Smart Escrow on XRPL
 - [The escrow code](./escrow/src/lib.rs)
     - This is deployed to XRPL and contains a function `finish` which verifies a zk proof
 - [The zkVM program](./zkvm/example-proof/guest/src/main.rs)
-    - Runs inside the Risc0 zkVM and produces a proof which is submitted to the escrow
+    - Runs inside the Boundless Risc0 zkVM and produces a proof which is submitted to the escrow
 
 These two things combined express the conditions under which the escrow will finish.
 
