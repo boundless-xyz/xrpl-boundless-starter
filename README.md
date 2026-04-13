@@ -18,7 +18,7 @@ DeFi lending mechanics applied to AI datasets on XRPL: data owners encrypt datas
 - Demo: [youtube.com/watch?v=x431-bc3ees](https://www.youtube.com/watch?v=x431-bc3ees)
 - Hackathon Page: [Project](https://hackathons.xrpl-commons.org/projects/69db6d6912448cae75279676)
 
-# Install Prompt
+## Install Prompt
 
 Copy and paste this into your AI agent to get started:
 
