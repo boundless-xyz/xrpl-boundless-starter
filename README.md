@@ -2,6 +2,22 @@
 
 A starter kit for developing XRPL Smart Escrows with Boundless ZK proof integration
 
+## Hackathon Winners — XRPL Hack the Block (Paris, 11–12 April 2026)
+
+Projects built on this starter that won at the XRPL Commons "Hack the Block" hackathon during Paris Blockchain Week.
+
+### 🥇 Check-Fi
+A privacy-preserving invoice factoring marketplace where suppliers tokenize unpaid invoices with selective field disclosure and get paid instantly. Credit grades are computed inside a Boundless zkVM and verified on-chain by an XRPL Smart Escrow, so funders earn yield without ever seeing the underlying debtor data.
+- Repo: [fabianferno/check-fi](https://github.com/fabianferno/check-fi)
+- Demo: [canva.link/vuswp48bdbhu8yd](https://canva.link/vuswp48bdbhu8yd)
+- Hackathon Page: [Project](https://hackathons.xrpl-commons.org/projects/69dafc6412448cae7527966e)
+
+### 🥈 Sirius (DataLend Protocol)
+DeFi lending mechanics applied to AI datasets on XRPL: data owners encrypt datasets to IPFS, mint MPTs to represent them on-chain, and lend them out under cryptographically-enforced consent. ZK proofs gate access and compensation, turning idle datasets into a productive, traceable yield-generating asset.
+- Repo: [DVB-Ali-Noe/Sirius2.0](https://github.com/DVB-Ali-Noe/Sirius2.0)
+- Demo: [youtube.com/watch?v=x431-bc3ees](https://www.youtube.com/watch?v=x431-bc3ees)
+- Hackathon Page: [Project](https://hackathons.xrpl-commons.org/projects/69db6d6912448cae75279676)
+
 # Install Prompt
 
 Copy and paste this into your AI agent to get started:
