@@ -163,7 +163,7 @@ The CLI submits a proving request, waits for fulfillment, and returns journal+se
 
 Do NOT deploy ZK smart escrows to the regular XRPL devnet. The Groth5 precompiles are only on this special devnet.
 
-Use the web UI (`ui/index.html`, hosted at `https://boundless-xyz.github.io/xrpl-risc0-starter/`) to:
+Use the web UI (`ui/index.html`, hosted at `https://boundless-xyz.github.io/xrpl-boundless-starter/`) to:
 1. Connect to groth5 devnet and fund an account
 2. Upload `./target/wasm32v1-none/release/escrow.wasm`
 3. Deploy an escrow

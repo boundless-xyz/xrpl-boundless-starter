@@ -108,7 +108,7 @@ A special devnet has been created for previewing smart escrows with ZK verificat
 - RPC - wss://groth5.devnet.rippletest.net:51233
 - Faucet - http://groth5-faucet.devnet.rippletest.net
 
-The easiest way to deploy to this devnet is to use the [provided web UI](https://boundless-xyz.github.io/xrpl-risc0-starter/)!
+The easiest way to deploy to this devnet is to use the [provided web UI](https://boundless-xyz.github.io/xrpl-boundless-starter/)!
 
 1. Connect to the groth5 devnet and generate/fund a new account
 2. Using the web UI upload your escrow binary (./target/wasm32v1-none/release/escrow.wasm) using the upload file tab

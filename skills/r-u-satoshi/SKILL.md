@@ -174,7 +174,7 @@ just prove
 
 ## Deployment Flow
 
-1. **Open the Web UI** at `https://boundless-xyz.github.io/xrpl-risc0-starter/`
+1. **Open the Web UI** at `https://boundless-xyz.github.io/xrpl-boundless-starter/`
 2. **Connect** to Groth5 devnet and fund accounts
 3. **Load your compiled escrow** (upload `escrow.wasm`)
 4. **Deploy** the smart escrow with desired amount

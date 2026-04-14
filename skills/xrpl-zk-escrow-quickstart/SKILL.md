@@ -6,7 +6,7 @@
 
 ### 1. Open the Hosted UI
 
-Navigate to: **`https://boundless-xyz.github.io/xrpl-risc0-starter/`**
+Navigate to: **`https://boundless-xyz.github.io/xrpl-boundless-starter/`**
 
 Or open `ui/index.html` locally in your browser.
 
